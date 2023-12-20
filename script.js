@@ -1,5 +1,15 @@
 function minDate(dates) {
-  //write you code here
+  let ssort=dates.sort((a,b)=>{
+   if(a>b){
+     return 1
+   }
+   else if(a<b){
+    return -1;
+   }
+   return 0;
+})
+return ssort[0];
+
 }
 
 // Do not change the code
